@@ -171,6 +171,7 @@ a, a:hover, a:focus {
 	max-height:100%;
 	position:fixed;
 	overflow-y:auto;
+	overflow-x: hidden;
 }
 
 
