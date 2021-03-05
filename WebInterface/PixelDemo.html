@@ -261,6 +261,22 @@
                             </div>
                         </div>
                     </div>
+                    <div id="RateControlContainer">
+                        <div class="settings-text">Rate Control</div>
+                        <label class="tgl-switch">
+                            <select id="rate-control-dropdown">
+                                <option value="CBR" selected>CBR</option>
+                                <option value="VBR">VBR</option>
+                                <option value="ConstQP">ConstQP</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div id="MinQPContainer">
+                        <div class="settings-text">Qual control (0=max qual/br)</div>
+                        <label class="tgl-switch">
+                            <input type="number" id="minqp-number" value="21" min="0" max="51">
+                        </label>
+                    </div>
                     <div id="ShowFPS">
                         <div class="settings-text">Show FPS</div>
                         <label class="btn-overlay">

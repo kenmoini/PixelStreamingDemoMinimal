@@ -15,7 +15,7 @@ function setVisualization(id) {
 }
 
 function setBandwidthCap(cap) {
-    capBpsCmd = 'Encoder.MaxBitrate ' + cap;
+    capBpsCmd = 'PixelStreaming.Encoder.MaxBitrate ' + cap * 1000;
     let descriptor = {
         Console: capBpsCmd
     }
